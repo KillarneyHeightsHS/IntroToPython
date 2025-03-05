@@ -13,9 +13,9 @@ In a file called `indoor.py`, implement a program in Python that prompts the use
 ## Before You Begin
 
 1. Ensure you are in the root directory of the repository that you cloned to your machine.
-2. Change directory to `src/lesson_0/` in your terminal window.
+2. Change directory to `src/function_variables/` in your terminal window.
 ```
-cd src/lesson_0/
+cd src/function_variables/
 ```
 3. create or open the file `indoor.py`
 ```
@@ -30,12 +30,12 @@ Here’s how to test your code manually. At the indoor/ $ prompt in your termina
 - Run your program with `python indoor.py`. Type `THIS IS CS50` and press ++enter++. Your program should output `this is cs50`.
 - Run your program with `python indoor.py`. Type `50` and press ++enter++. Your program should output `50`.
 
-If you run into an error saying your file cannot be opened, retrace your steps to be sure that you are inside your `lesson_0` folder and have saved your `indoor.py` file there. Remember how?
+If you run into an error saying your file cannot be opened, retrace your steps to be sure that you are inside your `function_variables` folder and have saved your `indoor.py` file there. Remember how?
 
 You can execute the below to check your code using `pytest` from the root directory.
 
 ```
-pytest .\tests\lesson_0\test_indoor.py
+pytest .\tests\function_variables\test_indoor.py
 ```
 
 A green output from running the test means it was successful. A red output means there is a bug in your code that you need to fix.
@@ -47,7 +47,7 @@ rootdir: C:\Users\jabba\khhs\github\IntroToPython, configfile: pyproject.toml
 plugins: cov-4.0.0
 collected 1 item                                                                                                                                                                                                                                                       
 
-tests\lesson_0\test_indoor.py .                                                                                                                                                                                                                                  [100%] 
+tests\function_variables\test_indoor.py .                                                                                                                                                                                                                                  [100%] 
 
 ========================= 1 passed in 0.03s ========================================
 

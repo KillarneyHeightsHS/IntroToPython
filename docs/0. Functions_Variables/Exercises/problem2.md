@@ -12,9 +12,9 @@ In a file called `playback.py`, implement a program in Python that prompts the u
 ## Before You Begin
 
 1. Ensure you are in the root directory of the repository that you cloned to your machine.
-2. Change directory to `src/lesson_0/` in your terminal window.
+2. Change directory to `src/function_variables/` in your terminal window.
 ```
-cd src/lesson_0/
+cd src/function_variables/
 ```
 3. create or open the file `playback.py`
 ```
@@ -43,7 +43,7 @@ Here’s how to test your code manually:
 You can execute the below to check your code using `pytest` from the root directory.
 
 ```
-.\tests\lesson_0\test_playback.py
+.\tests\function_variables\test_playback.py
 ```
 
 A green output from running the test means it was successful. A red output means there is a bug in your code that you need to fix.

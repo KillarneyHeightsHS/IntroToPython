@@ -1,6 +1,11 @@
 # Overview
 
-This is an adaptation of the CS50 Introduction to Python course from Harvard. The course covers the basics of Python programming, including data types, control structures, functions, and more.
+This is an adaptation of the [CS50 Introduction to Python](https://cs50.harvard.edu/python/2022/) course from Harvard. The course covers the basics of Python programming, including data types, control structures, functions, and more. It also includes additional sections that align with the [NSW Stage 6 Software Engineering](https://curriculum.nsw.edu.au/learning-areas/tas/software-engineering-11-12-2022/overview) curriculum.
+
+!!! Note
+    If you see a call-out section with a :material-pirate: icon, it means that the section is an extension and may not be covered in the syllabus.
+    !!! Extension
+        - this is an extension and not in the syllabus.
 
 ## Getting Started
 
@@ -38,7 +43,7 @@ The attached video shows how you can start this project with Codespace.
     - On Windows, you may see `C:\Users\username\github\IntroToPython>`.
     - On Linux or Mac, you may see `$` or `%`.
 
-    In all examples I will not use a prompt to make it easier to copy the command.
+    In all examples I will avoid using a prompt to make it easier to copy the command.
 
 
 2. Clone your new repository to you local machine using GitHub Web, GitHub Desktop or the command line.
@@ -72,7 +77,7 @@ The repository is structured as follows:
 
 ## Course Basics
 
-The intention is for you to start from [Lesson 0](./0.%20Functions_Variables/index.md) and work through each lesson in order. Each lesson will have a corresponding set of exercises or problems that you should complete. The solutions to these exercises should be placed in the `src/` directory. As an example, if you are working on the Indoor voice problem from [Lesson 0](./0.%20Functions_Variables/Exercises/problem1.md), your solutions should be placed in `src/lesson_0/indoor.py`.
+The intention is for you to start from [Lesson 0](./0.%20Functions_Variables/index.md) and work through each lesson in order. Each lesson will have a corresponding set of exercises or problems that you should complete. The solutions to these exercises should be placed in the `src/` directory. As an example, if you are working on the Indoor voice problem from [Lesson 0](./0.%20Functions_Variables/Exercises/problem1.md), your solutions should be placed in `src/function_variables/indoor.py`.
 
 ## Submission
 

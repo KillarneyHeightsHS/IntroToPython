@@ -1,6 +1,7 @@
 site_name: Introduction to Python
 theme:
   name: material
+  language: en
   features: 
     - navigation.footer
     - search.suggest
@@ -8,7 +9,6 @@ theme:
     - content.tabs.link
     - content.code.annotate
     - content.code.copy
-  language: en
   palette:
     - scheme: default
       toggle:

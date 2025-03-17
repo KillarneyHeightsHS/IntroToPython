@@ -50,29 +50,26 @@ A green output from running the test means it was successful. A red output means
 
 From github desktop or the command line, commit your changes and push them to your repository.
 
-### Commandline 
-You will need to have installed `git-scm` for this to work.
-
-```bash
-git add -A
-git commit -m "Your message here"
-git push origin main
-```
-
 ### Codespaces
 If you are using codespaces, you can commit your changes directly from the Codespace interface. Click on the Source Control icon in the left sidebar, then click on the "..." button and select "Commit to main". Enter a commit message and click "Commit".
 
-### Codespace terminal 
+#### Codespace terminal or your local terminal. 
 
-At the `/loops $` prompt in your terminal:
+!!! Note
+    You will need to have installed `git-scm` for this to work locally
+
+At the `/datatypes $` prompt in your terminal:
 ```
 git add -A 
 ```
 Add all changed files in the repository to be committed
 ```
-git commit -m "Upload completed twttr.py"
+git commit -m "your message here"
 ```
-Commit all changes in the REPO with the comment “Upload completed twttr.py“ note: If the file is not complete, adjust the comment to describes what is being committed
+Commit all changes in the REPO with the comment “your message here“ note: If the file is not complete, adjust the comment to describes what is being committed
+!!! Note
+    Remember to replace "your message here" with a meaningful commit message that describes your changes.
+
 ```
 git push 
 ```

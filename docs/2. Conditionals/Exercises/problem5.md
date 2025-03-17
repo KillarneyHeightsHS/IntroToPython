@@ -74,19 +74,13 @@ A green output from running the test means it was successful. A red output means
 
 From github desktop or the command line, commit your changes and push them to your repository.
 
-### Commandline 
-You will need to have installed `git-scm` for this to work.
-
-```bash
-git add -A
-git commit -m "Your message here"
-git push origin main
-```
-
 ### Codespaces
 If you are using codespaces, you can commit your changes directly from the Codespace interface. Click on the Source Control icon in the left sidebar, then click on the "..." button and select "Commit to main". Enter a commit message and click "Commit".
 
-#### Codespace terminal 
+#### Codespace terminal or your local terminal. 
+
+!!! Note
+    You will need to have installed `git-scm` for this to work locally
 
 At the `/conditionals/meal $` prompt in your terminal:
 ```

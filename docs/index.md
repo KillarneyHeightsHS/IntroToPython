@@ -29,7 +29,7 @@ To get started with the course, follow these steps:
     then click on **Fork repository**.
 
 ### Codespaces
-The quickest way to get started is to use github codespaces. If you are a student it is strongly advised to sign up to [GitHub Education](https://education.github.com/discount_requests/application?type=student). You will get a Free GitHub Pro account giving you more resources and tools to work with Python. The key one being 180 hours per month with Codespaces. mean you can develop and learn from you PC, Laptop or iPad without the need to install development tools like Python or VS Code locally.
+The quickest way to get started is to use github codespaces. If you are a student it is strongly advised to sign up to [GitHub Education](https://education.github.com/discount_requests/application?type=student). You will get a Free GitHub Pro account giving you more resources and tools to work with Python. The key one being 180 hours per month with Codespaces, meaning you can develop and learn from you PC, Laptop or iPad without the need to install development tools like Python or VS Code locally.
 
 The attached video shows how you can start this project with Codespace.
 
@@ -92,22 +92,8 @@ For example, if you want to check that your code is working correctly for the `i
 pytest -k "indoor"
 ```
 
+## Getting New Lessons
 
+To get new lessons, simply sync the latest changes from the repository. You can do this in GitHub's codespaces or locally.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+Follow these [instructions](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/syncing-a-fork).

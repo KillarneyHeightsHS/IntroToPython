@@ -8,19 +8,20 @@ You have a box that can contain any type of object (integer, float, string, list
     - Consider using a dictionary to map types to their string representations for cleaner code.
 
 ## Before You Begin
-The boilerplate code has been provided for you. Open the file `src/datatypes/converter.py` in vscode. You will need to implement the function: `number_system_converter(value, from_base, to_base)`. 
+The boilerplate code has been provided for you. Open the file `src/datatypes/object_type.py` in vscode. You will need to implement the function: `print_data_type(obj)`. 
 
 ## How to test
-1. Run your program with `python converter.py`.
+1. Run your program with `python object_type.py`.
 2. Try adding different types of values under `if __name__ == "__main__":` block and see if it works as expected.
 ```python
 if __name__ == "__main__":
     # Test with various conversions
-    print(number_system_converter("1101", "binary", "decimal"))
-    print(number_system_converter("42", "decimal", "binary"))
-    print(number_system_converter("FF", "hex", "binary"))
-    print(number_system_converter("1101", "binary", "hex"))
+    print_data_type(123)
+    print_data_type("hello")
+    print_data_type('test')
 ```
+!!! Note
+    Your tests should cover more data types than in the example.
 
 ## How to Submit
 
@@ -40,9 +41,9 @@ git add -A
 ```
 Add all changed files in the repository to be committed
 ```
-git commit -m "Upload completed converter.py"
+git commit -m "Upload completed object_type.py"
 ```
-Commit all changes in the REPO with the comment “Upload completed converter.py“ note: If the file is not complete, adjust the comment to describes what is being committed
+Commit all changes in the REPO with the comment “Upload completed object_type.py“ note: If the file is not complete, adjust the comment to describes what is being committed
 ```
 git push 
 ```

@@ -100,7 +100,7 @@ If you are using codespaces, you can commit your changes directly from the Codes
 !!! Note
     You will need to have installed `git-scm` for this to work locally
 
-At the `/datatypes $` prompt in your terminal:
+At the `/functions_variables $` prompt in your terminal:
 ```
 git add -A 
 ```

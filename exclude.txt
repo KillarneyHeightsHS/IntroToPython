@@ -1,0 +1,129 @@
+There is no specifics around what should be taught for binary. Just the following broad statement
+- "Investigate the use of number systems for computing purposes, including binary, decimal and hexadecimal."
+
+For now, until I get some clarity on what should be covered, I will not include any details on binary arithmetic as is generally is not used in modern programming. Instead, I will focus on the basics of binary representation and how it is used in computing.
+
+
+### Arithmetic Operations
+#### Addition (+)
+
+When adding two binary numbers, we follow the same rules as adding decimal numbers. However, instead of carrying over a value when the sum is greater than 1, we carry over a value when the sum is greater than or equal to 2. You should also ensure you align the bits before adding them.
+
+Example: without carry over
+```
+  1010
++  101
+------
+  1111
+------
+```
+
+Consider a binary number with a carry over:
+```
+  10111
+ +  101
+-------
+  10000
+-------
+```
+
+??? Extension "Endianess"
+
+    Different uses of binary have different endianess. Endianess refers to the order in which bytes are stored in memory, either from most significant byte (MSB) to least significant byte (LSB), or vice versa. There are two types of endianness: little-endian and big-en`dian. For example, Intel uses little-endian, while ARM uses big-endian. This means that the most significant bit (MSB) may be on the left or right depending on the system.
+
+#### Subtraction (-)
+When subtracting two binary numbers, we follow the same rules as subtracting decimal numbers. However, instead of borrowing a value when the difference is less than 0, we borrow a value when the difference is less than -1. You should also ensure you align the bits before subtracting them.
+
+Example: without borrow over
+```
+  1111
+-  101
+------
+  1010
+------
+```
+
+Example with borrow over:
+```
+    100
+ -  001
+-------
+    011
+-------
+```
+
+An alternative way to perform subtraction is by using the two's complement method. This involves adding the negative value of the second number to the first number.
+
+Example:
+```
+  1111
+- 1110
+-------  Invert the lower bits (convert 0 to 1 and vice versa)
+  1111
++ 0001
+-------  Add 1 to the lower number
+  1111
+  0010
+-------  Add the two numbers
+ 10001
+-------  Remove the leading bit
+  0001
+```
+
+#### Multiplication (*)
+When multiplying two binary numbers, we follow the same rules as multiplying decimal numbers. However, instead of carrying over a value when the product is greater than 10, we carry over a value when the product is greater than 2.
+
+Example 1:
+
+=== "Binary"
+    ```
+       101
+     *  10
+    ------
+       000  (101 * 2^0)
+    + 1010  (101 * 2^1)
+    ------
+      1010
+    ------
+    ```
+
+=== "Decimal"
+    ```
+     5 * 2 = 10
+    ```
+
+
+Example 2:
+=== "Binary"
+
+    ```
+         1011
+       *  110
+    ---------
+         0000   (1011 * 2^0)
+    +   10110   (1011 * 2^1)
+    +  101100   (1011 * 2^2)
+    ---------
+      1000010
+    ```
+
+=== "Decimal"
+
+    ```
+    11 * 6 = 66
+    ```
+
+#### Division (/)
+When dividing two binary numbers, the rules are more complex. These rules are as follows:
+
+1. If the divisor is zero, the result is undefined.
+2. If both numbers are positive or both are negative, the result is positive.
+3. If one number is positive and the other is negative, the result is negative.
+
+
+
+
+
+
+??? Info "Additional Material"
+    - [Binary Arithmetic](https://ryanstutorials.net/binary-tutorial/binary-arithmetic.php)
